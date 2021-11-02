@@ -1,0 +1,72 @@
+/* Main intro */
+
+.intro {
+  max-width: 1380px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 40px 5px;
+}
+
+.intro h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.intro p {
+  color: var(--light-color);
+}
+
+.intro a {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+.intro a:hover {
+  color: var(--hover-red);
+}
+
+/* Front page cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  flex-direction: row;
+  margin: 200px 0px;
+}
+
+.card {
+  max-width: 300px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin: 50px 20px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+
+  border-radius: 20px;
+  padding: 50px 10px;
+  background: linear-gradient(to right, var(--light-color), var(--bright-red));
+  color: #fff;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .cards {
+    margin: 100px 0px;
+  }
+}

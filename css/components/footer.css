@@ -1,0 +1,21 @@
+/* Footer */
+
+footer {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a img {
+  width: 15px;
+  margin: 35px 35px;
+}
+
+footer .footer-svg {
+  fill: #fff;
+}
+
+#facebook-icon {
+  width: 12px;
+}

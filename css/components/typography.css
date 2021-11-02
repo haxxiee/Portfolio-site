@@ -1,0 +1,10 @@
+:root {
+  --poppins-normal: "Poppins", sans-serif;
+  --ubuntu-normal: "Ubuntu", sans-serif;
+}
+
+* {
+  font-family: var(--poppins-normal);
+}
+
+/* Experience page */
