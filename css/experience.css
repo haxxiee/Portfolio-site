@@ -16,7 +16,7 @@ section p {
 
 .grid-container {
   max-width: 1380px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: grid;
   gap: 1em;
   padding: 1em;
@@ -96,7 +96,7 @@ section p {
 @media screen and (max-width: 1280px) {
   .grid-container {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
     gap: 1em;
     padding: 1em;
@@ -104,13 +104,10 @@ section p {
   }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 800px) {
   .grid-container {
-    max-width: 600px;
-    margin: 0 auto;
-    display: grid;
-    gap: 1em;
-    padding: 1em;
+    max-width: 500px;
+    gap: 0.25em;
     grid-template-columns: 1fr;
   }
 }

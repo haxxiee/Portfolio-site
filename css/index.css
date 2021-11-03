@@ -25,6 +25,8 @@
   color: var(--hover-red);
 }
 
+/* Card title */
+
 /* Front page cards */
 .cards {
   display: flex;
@@ -32,7 +34,7 @@
   align-items: center;
   flex-flow: wrap;
   flex-direction: row;
-  margin: 200px 0px;
+  margin: 150px 0px;
 }
 
 .card {
