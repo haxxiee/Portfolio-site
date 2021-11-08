@@ -7,4 +7,55 @@
   font-family: var(--poppins-normal);
 }
 
+/* Index page */
+.intro h2 {
+  font-size: 40px;
+}
+
+.card-body {
+  font-size: 18px;
+}
+
 /* Experience page */
+section .experience-title {
+  font-size: 44px;
+}
+
+section p {
+  font-size: 22px;
+}
+
+.grid-container .container .img-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Header typography */
+header a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header .logo {
+  font-family: var(--ubuntu-normal);
+  font-size: 34px;
+}
+
+header .logo span {
+  font-family: var(--ubuntu-normal);
+}
+
+/* Forms typography */
+form label {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+form .half .item input,
+form .full textarea {
+  font-size: 16px;
+}
+
+form .action input {
+  font-size: 13px;
+}
