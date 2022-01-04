@@ -5,10 +5,15 @@
   margin: 0 auto;
   margin-top: 150px;
   padding: 40px 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro h2 {
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .intro a:hover {
@@ -22,7 +27,7 @@
   align-items: center;
   flex-flow: wrap;
   flex-direction: row;
-  margin: 150px 0px;
+  margin: 120px 0px;
 }
 
 .card {
@@ -49,6 +54,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .intro {
+    margin-top: 40px;
+  }
   .cards {
     margin: 100px 0px;
   }

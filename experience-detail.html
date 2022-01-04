@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/components/typography.css" />
+    <link rel="stylesheet" href="css/components/colors.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/experience-detail.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="main.js"></script>
+    <title>Experience Details</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">LF<span>.</span></a>
+      <div class="menu-btn">
+        <div class="menu-btn__lines"></div>
+      </div>
+      <ul class="menu-items">
+        <li><a href="index.html" class="menu-item">Home</a></li>
+        <li><a href="experience.html" class="menu-item">Experience</a></li>
+        <li><a href="contact.html" class="menu-item">Contact</a></li>
+      </ul>
+    </header>
+    <div class="header-text">
+      <h1>Project Details</h1>
+    </div>
+    <div class="carousel">
+      <button class="carousel-btn prev">
+        <img src="images\arrow-left.svg" alt="" />
+      </button>
+      <div class="carousel-container">
+        <ul class="carousel-track">
+          <li class="slide current">
+            <img src="images/slide-imgs/picture1.jpg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/slide-imgs/picture2.jpg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/slide-imgs/picture3.jpg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/slide-imgs/picture4.jpg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/slide-imgs/picture5.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel-btn next">
+        <img src="images\arrow-right.svg" alt="bobo" />
+      </button>
+      <div class="carousel-nav">
+        <button class="carousel-indicator current"></button>
+        <button class="carousel-indicator"></button>
+        <button class="carousel-indicator"></button>
+        <button class="carousel-indicator"></button>
+        <button class="carousel-indicator"></button>
+      </div>
+    </div>
+    <div class="modal">
+      <img src="images/slide-imgs/picture1.jpg" alt="" class="full-img" />
+    </div>
+    <footer>
+      <a href="#"
+        ><img src="images/instagram-brands.svg" alt="" class="footer-svg"
+      /></a>
+      <a href="#"
+        ><img
+          src="images/facebook-f-brands.svg"
+          alt=""
+          class="footer-svg"
+          id="facebook-icon"
+      /></a>
+      <a href="#"
+        ><img src="images/github-brands.svg" alt="" class="footer-svg"
+      /></a>
+      <a href="#"
+        ><img src="images/linkedin-in-brands.svg" alt="" class="footer-svg"
+      /></a>
+    </footer>
+  </body>
+</html>
