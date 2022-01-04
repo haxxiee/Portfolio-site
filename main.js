@@ -1,7 +1,7 @@
 // Hamburger menu toggle /w jQuery
 $(".menu-btn").click(() => {
-  $(".menu-btn").toggle("open");
-  $(".menu-items").toggle("open");
+  $(".menu-btn").toggleClass("open");
+  $(".menu-items").toggleClass("open");
 });
 
 // MODAL POP /w jQuery
